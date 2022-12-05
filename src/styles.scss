@@ -1,6 +1,8 @@
 @import "./config-scss/variables.scss";
 @import "./config-scss/reset.scss";
 @import "./config-scss/rem-calc.scss";
+@import "./config-scss/btn.scss";
+@import "./config-scss/animation.scss";
 
 @font-face {
   font-family: "roboto";
@@ -25,7 +27,8 @@ html {
 }
 
 main {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   box-sizing: border-box;
 }
+

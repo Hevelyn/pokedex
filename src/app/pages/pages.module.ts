@@ -5,13 +5,10 @@ import { RoutingModule } from './routing.module';
 import { DetailsComponent } from './details/details.component';
 import { SharedModule } from './../shared/shared.module';
 
-
-
 @NgModule({
   declarations: [
     HomeComponent,
     DetailsComponent,
-    // HeaderComponent
   ],
   imports: [
     CommonModule,
